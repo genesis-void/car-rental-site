@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FlexiCar Rentals</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #0a2540;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 30px;
+      background: white;
+      margin: 20px;
+      border-radius: 8px;
+    }
+    h2 {
+      color: #0a2540;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      background: #0a2540;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 10px;
+    }
+    .cars {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+    .card {
+      background: #fafafa;
+      padding: 15px;
+      border-radius: 6px;
+      border: 1px solid #ddd;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>FlexiCar Rentals</h1>
+  <p>Rent cars directly from owners — cheaper, flexible, local</p>
+  <a class="btn" href="#rent">Find a Car</a>
+  <a class="btn" href="#list">List Your Car</a>
+</header>
+
+<section>
+  <h2>How It Works</h2>
+  <ol>
+    <li>Car owners list unused cars</li>
+    <li>Renters request by hours, weeks, months, or more</li>
+    <li>Price & duration negotiated directly</li>
+    <li>Cheaper than traditional rental companies</li>
+  </ol>
+</section>
+
+<section>
+  <h2>Available Cars (Sample)</h2>
+  <div class="cars">
+    <div class="card">
+      <h3>Hyundai i20</h3>
+      <p>Available: 1 week – 3 months</p>
+      <p>City: Bangalore</p>
+      <a class="btn" href="https://wa.me/91XXXXXXXXXX">Contact Owner</a>
+    </div>
+    <div class="card">
+      <h3>Maruti Swift</h3>
+      <p>Available: Daily / Weekly</p>
+      <p>City: Delhi</p>
+      <a class="btn" href="https://wa.me/91XXXXXXXXXX">Contact Owner</a>
+    </div>
+  </div>
+</section>
+
+<section id="rent">
+  <h2>Rent a Car</h2>
+  <p>Request a car for your required duration. Negotiation happens directly.</p>
+  <a class="btn" href="https://forms.google.com">Request a Car</a>
+</section>
+
+<section id="list">
+  <h2>List Your Car</h2>
+  <p>Have a car sitting unused? Let it earn for you.</p>
+  <a class="btn" href="https://forms.google.com">List Your Car</a>
+</section>
+
+<footer>
+  <p>Built for urban India • Peer-to-peer rentals • No middlemen</p>
+</footer>
+
+</body>
+</html>
